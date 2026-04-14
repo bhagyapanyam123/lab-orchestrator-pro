@@ -1,10 +1,9 @@
 {
-  "orgName": "My Project Org",
+  "orgName": "Agentforce_Specialist_Lab",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["Einstein1AIPlatform", "DataCloudBroker", "ServiceCloud"],
   "settings": {
-    "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
-    }
+    "agentPlatformSettings": { "enableAgentPlatform": true },
+    "einsteinGptSettings": { "enableEinsteinGptPlatform": true }
   }
 }

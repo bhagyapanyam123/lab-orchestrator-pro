@@ -1,0 +1,7 @@
+public with sharing class MilestoneController {
+    @AuraEnabled
+    public static void updateProgress(String labId, String milestoneName) {
+        // Logic to verify task completion and send outbound callout to Middleware
+        HttpUtils.sendToHeroku(labId, milestoneName, 'Completed');
+    }
+}
