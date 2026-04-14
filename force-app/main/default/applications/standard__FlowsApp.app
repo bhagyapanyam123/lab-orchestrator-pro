@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>FlowsApp</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>My_Learning_Dashboard</tabs>
+    <tabs>standard-FlowRecord</tabs>
+    <tabs>standard-FlowOrchestration</tabs>
+    <tabs>standard-Monitor</tabs>
+    <tabs>standard-EngagementSignal</tabs>
+    <tabs>standard-ActionHub</tabs>
+    <tabs>standard-FlowLogs</tabs>
+    <tabs>Learning_Milestone__c</tabs>
+    <tabs>Lab_Session__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>FlowsApp_UtilityBar</utilityBar>
+</CustomApplication>

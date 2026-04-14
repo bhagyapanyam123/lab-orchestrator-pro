@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Message channel to trigger Agentforce sidebar from LWC</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Boolean to trigger the window open state</description>
+        <fieldName>shouldOpenAgent</fieldName>
+    </lightningMessageFields>
+    <masterLabel>AgentNudgeChannel</masterLabel>
+</LightningMessageChannel>
